@@ -1,0 +1,110 @@
+# Logfile created on 2017-08-13 12:05:13 -0400 by logger.rb/41954
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-13 12:05:13 -0400 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [ae07951a] Running /usr/bin/env mkdir -p /tmp as cincycx@cincinnaticyclocross.com
+  INFO [ae07951a] Finished in 1.421 seconds with exit status 0 (successful).
+  INFO Uploading /tmp/git-ssh-cincycx.com-production-ben.sh 100.0%
+  INFO [7b6e4bbb] Running /usr/bin/env chmod 700 /tmp/git-ssh-cincycx.com-production-ben.sh as cincycx@cincinnaticyclocross.com
+  INFO [7b6e4bbb] Finished in 0.198 seconds with exit status 0 (successful).
+  INFO [e1beba5c] Running /usr/bin/env git ls-remote git@github.com:mynameiswilson/cxseries-bootstrap.git HEAD as cincycx@cincinnaticyclocross.com
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-13 12:07:20 -0400 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [6a73257a] Running /usr/bin/env mkdir -p /home/cincycx/tmp as cincycx@cincinnaticyclocross.com
+  INFO [6a73257a] Finished in 1.406 seconds with exit status 0 (successful).
+  INFO Uploading /home/cincycx/tmp/git-ssh-cincycx.com-production-ben.sh 100.0%
+  INFO [de07c9c5] Running /usr/bin/env chmod 700 /home/cincycx/tmp/git-ssh-cincycx.com-production-ben.sh as cincycx@cincinnaticyclocross.com
+  INFO [de07c9c5] Finished in 0.181 seconds with exit status 0 (successful).
+  INFO [96c58178] Running /usr/bin/env git ls-remote git@github.com:mynameiswilson/cxseries-bootstrap.git HEAD as cincycx@cincinnaticyclocross.com
+  INFO [96c58178] Finished in 1.764 seconds with exit status 0 (successful).
+  INFO [1a01df25] Running /usr/bin/env mkdir -p ~/www/shared ~/www/releases as cincycx@cincinnaticyclocross.com
+  INFO [1a01df25] Finished in 0.184 seconds with exit status 0 (successful).
+  INFO [067f2d41] Running /usr/bin/env mkdir -p ~/www/shared/web/app/uploads as cincycx@cincinnaticyclocross.com
+  INFO [067f2d41] Finished in 0.190 seconds with exit status 0 (successful).
+  INFO [92515e14] Running /usr/bin/env mkdir -p ~/www/shared as cincycx@cincinnaticyclocross.com
+  INFO [92515e14] Finished in 0.183 seconds with exit status 0 (successful).
+ ERROR linked file ~/www/shared/.env does not exist on cincinnaticyclocross.com
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-13 12:11:56 -0400 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [599bd56b] Running /usr/bin/env mkdir -p /home/cincycx/tmp as cincycx@cincinnaticyclocross.com
+  INFO [599bd56b] Finished in 1.165 seconds with exit status 0 (successful).
+  INFO Uploading /home/cincycx/tmp/git-ssh-cincycx.com-production-ben.sh 100.0%
+  INFO [5edc96f0] Running /usr/bin/env chmod 700 /home/cincycx/tmp/git-ssh-cincycx.com-production-ben.sh as cincycx@cincinnaticyclocross.com
+  INFO [5edc96f0] Finished in 0.187 seconds with exit status 0 (successful).
+  INFO [2ed0abc6] Running /usr/bin/env git ls-remote git@github.com:mynameiswilson/cxseries-bootstrap.git HEAD as cincycx@cincinnaticyclocross.com
+  INFO [2ed0abc6] Finished in 1.329 seconds with exit status 0 (successful).
+  INFO [6e1f4d3d] Running /usr/bin/env mkdir -p ~/www/shared ~/www/releases as cincycx@cincinnaticyclocross.com
+  INFO [6e1f4d3d] Finished in 0.180 seconds with exit status 0 (successful).
+  INFO [eeb8d908] Running /usr/bin/env mkdir -p ~/www/shared/web/app/uploads as cincycx@cincinnaticyclocross.com
+  INFO [eeb8d908] Finished in 0.185 seconds with exit status 0 (successful).
+  INFO [1ffcdf9e] Running /usr/bin/env mkdir -p ~/www/shared as cincycx@cincinnaticyclocross.com
+  INFO [1ffcdf9e] Finished in 0.183 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-13 12:12:14 -0400 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [6756203b] Running /usr/bin/env mkdir -p /home/cincycx/tmp as cincycx@cincinnaticyclocross.com
+  INFO [6756203b] Finished in 1.151 seconds with exit status 0 (successful).
+  INFO Uploading /home/cincycx/tmp/git-ssh-cincycx.com-production-ben.sh 100.0%
+  INFO [be4051a0] Running /usr/bin/env chmod 700 /home/cincycx/tmp/git-ssh-cincycx.com-production-ben.sh as cincycx@cincinnaticyclocross.com
+  INFO [be4051a0] Finished in 0.190 seconds with exit status 0 (successful).
+  INFO [8d958d2f] Running /usr/bin/env git ls-remote git@github.com:mynameiswilson/cxseries-bootstrap.git HEAD as cincycx@cincinnaticyclocross.com
+  INFO [8d958d2f] Finished in 1.390 seconds with exit status 0 (successful).
+  INFO [ff2b4cdb] Running /usr/bin/env mkdir -p ~/www/shared ~/www/releases as cincycx@cincinnaticyclocross.com
+  INFO [ff2b4cdb] Finished in 0.181 seconds with exit status 0 (successful).
+  INFO [a58a782b] Running /usr/bin/env mkdir -p ~/www/shared/web/app/uploads as cincycx@cincinnaticyclocross.com
+  INFO [a58a782b] Finished in 0.183 seconds with exit status 0 (successful).
+  INFO [c8662f38] Running /usr/bin/env mkdir -p ~/www/shared as cincycx@cincinnaticyclocross.com
+  INFO [c8662f38] Finished in 0.179 seconds with exit status 0 (successful).
+  INFO [7ae8f2b2] Running /usr/bin/env git clone --mirror git@github.com:mynameiswilson/cxseries-bootstrap.git ~/www/repo as cincycx@cincinnaticyclocross.com
+  INFO [7ae8f2b2] Finished in 1.531 seconds with exit status 0 (successful).
+  INFO [dd644553] Running /usr/bin/env git remote set-url origin git@github.com:mynameiswilson/cxseries-bootstrap.git as cincycx@cincinnaticyclocross.com
+  INFO [dd644553] Finished in 0.190 seconds with exit status 0 (successful).
+  INFO [551925ca] Running /usr/bin/env git remote update --prune as cincycx@cincinnaticyclocross.com
+  INFO [551925ca] Finished in 2.198 seconds with exit status 0 (successful).
+  INFO [09a6ad76] Running /usr/bin/env mkdir -p ~/www/releases/20170813161218 as cincycx@cincinnaticyclocross.com
+  INFO [09a6ad76] Finished in 0.184 seconds with exit status 0 (successful).
+  INFO [7ffc12f6] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C ~/www/releases/20170813161218 as cincycx@cincinnaticyclocross.com
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-13 12:13:20 -0400 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [2dc6f32f] Running /usr/bin/env mkdir -p /home/cincycx/tmp as cincycx@cincinnaticyclocross.com
+  INFO [2dc6f32f] Finished in 1.083 seconds with exit status 0 (successful).
+  INFO Uploading /home/cincycx/tmp/git-ssh-cincycx.com-production-ben.sh 100.0%
+  INFO [909f5444] Running /usr/bin/env chmod 700 /home/cincycx/tmp/git-ssh-cincycx.com-production-ben.sh as cincycx@cincinnaticyclocross.com
+  INFO [909f5444] Finished in 0.169 seconds with exit status 0 (successful).
+  INFO [f5ceab46] Running /usr/bin/env git ls-remote git@github.com:mynameiswilson/cxseries-bootstrap.git HEAD as cincycx@cincinnaticyclocross.com
+  INFO [f5ceab46] Finished in 1.305 seconds with exit status 0 (successful).
+  INFO [180aa3c7] Running /usr/bin/env mkdir -p ~/www/shared ~/www/releases as cincycx@cincinnaticyclocross.com
+  INFO [180aa3c7] Finished in 0.170 seconds with exit status 0 (successful).
+  INFO [c951974b] Running /usr/bin/env mkdir -p ~/www/shared/web/app/uploads as cincycx@cincinnaticyclocross.com
+  INFO [c951974b] Finished in 0.168 seconds with exit status 0 (successful).
+  INFO [734fd301] Running /usr/bin/env mkdir -p ~/www/shared as cincycx@cincinnaticyclocross.com
+  INFO [734fd301] Finished in 0.166 seconds with exit status 0 (successful).
+ ERROR linked file ~/www/shared/.env does not exist on cincinnaticyclocross.com
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-13 12:13:52 -0400 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [9eeddf86] Running /usr/bin/env mkdir -p /home/cincycx/tmp as cincycx@cincinnaticyclocross.com
+  INFO [9eeddf86] Finished in 1.162 seconds with exit status 0 (successful).
+  INFO Uploading /home/cincycx/tmp/git-ssh-cincycx.com-production-ben.sh 100.0%
+  INFO [731bf15d] Running /usr/bin/env chmod 700 /home/cincycx/tmp/git-ssh-cincycx.com-production-ben.sh as cincycx@cincinnaticyclocross.com
+  INFO [731bf15d] Finished in 0.179 seconds with exit status 0 (successful).
+  INFO [c7e1f424] Running /usr/bin/env git ls-remote git@github.com:mynameiswilson/cxseries-bootstrap.git HEAD as cincycx@cincinnaticyclocross.com
+  INFO [c7e1f424] Finished in 1.593 seconds with exit status 0 (successful).
+  INFO [de031a1e] Running /usr/bin/env mkdir -p ~/www/shared ~/www/releases as cincycx@cincinnaticyclocross.com
+  INFO [de031a1e] Finished in 0.182 seconds with exit status 0 (successful).
+  INFO [8b7c0176] Running /usr/bin/env mkdir -p ~/www/shared/web/app/uploads as cincycx@cincinnaticyclocross.com
+  INFO [8b7c0176] Finished in 0.181 seconds with exit status 0 (successful).
+  INFO [10dd290b] Running /usr/bin/env mkdir -p ~/www/shared as cincycx@cincinnaticyclocross.com
+  INFO [10dd290b] Finished in 0.184 seconds with exit status 0 (successful).
+  INFO [419d0741] Running /usr/bin/env git clone --mirror git@github.com:mynameiswilson/cxseries-bootstrap.git ~/www/repo as cincycx@cincinnaticyclocross.com
+  INFO [419d0741] Finished in 1.756 seconds with exit status 0 (successful).
+  INFO [8aa02342] Running /usr/bin/env git remote set-url origin git@github.com:mynameiswilson/cxseries-bootstrap.git as cincycx@cincinnaticyclocross.com
+  INFO [8aa02342] Finished in 0.264 seconds with exit status 0 (successful).
+  INFO [a10320fe] Running /usr/bin/env git remote update --prune as cincycx@cincinnaticyclocross.com
+  INFO [a10320fe] Finished in 2.230 seconds with exit status 0 (successful).
+  INFO [54b1868b] Running /usr/bin/env mkdir -p ~/www/releases/20170813161357 as cincycx@cincinnaticyclocross.com
+  INFO [54b1868b] Finished in 0.185 seconds with exit status 0 (successful).
+  INFO [61200fb6] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C ~/www/releases/20170813161357 as cincycx@cincinnaticyclocross.com
